@@ -1,9 +1,11 @@
 <script setup>
-import Hello from "./components/Hello.vue";
+defineProps({
+  item: String,
+});
 </script>
 
 <template>
-  <Hello />
+  <h1>Home Component{{ item }}</h1>
 </template>
 
 <style scoped></style>

@@ -4,6 +4,7 @@ import Hello from "./components/Hello.vue";
 
 <template>
   <Hello />
+  <h1>App Component</h1>
 </template>
 
 <style scoped></style>
